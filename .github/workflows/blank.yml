@@ -39,4 +39,5 @@ jobs:
           git clone https://github.com/turistu/rmx3474-rooting test
           cd test
           perl deeptesting-junk.pl pcb 0x67f53c87 imei 00 cmd applyLkUnlock
+          perl deeptesting-junk.pl pcb 0x67f53c87 imei 00 cmd checkApproveResult \ model RMX2195 otaVersion RMX2195_11.C.16_1160_202209142358
           
