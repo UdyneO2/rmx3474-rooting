@@ -10,7 +10,7 @@ my %cfg = (
 
 	# these are used to build the json POST data
 
-	model => 'RMX3461',
+	model => 'RMX2195',
 		# ro.product.name [RMX3474EEA]
 	pcb => '',
 		# the serial number with 0x prepended [0x????????]
@@ -19,7 +19,7 @@ my %cfg = (
 		# /proc/oplusVersion/serialID **
 	imei => '00',
 		# the first IMEI
-	otaVersion => 'RMX3461_EX_11.C.03_2022082721280117',
+	otaVersion => 'RMX2195_11.C.16_1160_202209142358',
 		# ro.build.version.ota [RMX3474_11.?.??_????_202?????????]
 	clientStatus => 'i:0',
 	adbDvice => '',
@@ -29,10 +29,10 @@ my %cfg = (
 
 	client_id => '000000000000000',
 	sso_id => 0,
-	rpmodel => 'RMX3461',		# ro.product.model [RMX3474]
-	os_version => 'V1.0.0',		# ro.build_bak.version.opporom
-	rom_version => '',		# ro.build_bak.display.id
-	android_version => 31,		# Build.VERSION_SDK_INT [31]
+	rpmodel => 'RMX2195',		# ro.product.model [RMX3474]
+	os_version => 'V11.1',		# ro.build_bak.version.opporom
+	rom_version => 'RMX2195_11_C.16',		# ro.build_bak.display.id
+	android_version => 30,		# Build.VERSION_SDK_INT [31]
 	key_version => '1.0.3',
 	network_type => 'WIFI',
 	version_name => '1.0.1',
